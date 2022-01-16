@@ -11,27 +11,39 @@
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-  /* .wrap-text-hero {
-    order: 1;
+  .text-hero, .icon-hero, .image-hero {
+    padding: 1rem;
   }
 
-  .image-hero {
-    right: 50%;
-    top: 50%;
-    transform: translate(50%, -50%);
-  } */
+  .text-hero {
+    top: 24px !important; 
+  }
+  
+  .wrap-text-hero, .wrap-image-hero {
+    height: 400px !important;  
+  }
+
+  .image-hero img {
+    width: 100vw !important;
+  }
+
+  .icon-hero {
+    bottom: 24px !important;
+  }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
+  
   .wrap-text-hero {
     order: 1;
   }
-
-  .wrap-image-hero .image-hero {
+  
+  .image-hero {
     top: 50% !important;
     right: 50% !important;
     transform: translate(50%, -50%) !important;
+    padding: 0 !important;
   }
  }
 
