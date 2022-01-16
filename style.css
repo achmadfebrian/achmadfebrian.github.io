@@ -1,3 +1,15 @@
+.card-education::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  top: -1px;
+  left: -9px;
+  background-color: #33cf86;
+  z-index: 1000;
+}
+
 /* `xs` returns only a ruleset and no media query */
 /* 
  { 
